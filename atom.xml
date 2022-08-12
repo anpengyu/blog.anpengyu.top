@@ -3,11 +3,11 @@
   <title>宇~空间</title>
   
   
-  <link href="http://blog1.anpengyu.top/atom.xml" rel="self"/>
+  <link href="http://blog.anpengyu.top/atom.xml" rel="self"/>
   
-  <link href="http://blog1.anpengyu.top/"/>
+  <link href="http://blog.anpengyu.top/"/>
   <updated>2022-08-11T03:07:36.298Z</updated>
-  <id>http://blog1.anpengyu.top/</id>
+  <id>http://blog.anpengyu.top/</id>
   
   <author>
     <name>宇</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://blog1.anpengyu.top/2022/08/11/hello-world/"/>
-    <id>http://blog1.anpengyu.top/2022/08/11/hello-world/</id>
+    <link href="http://blog.anpengyu.top/2022/08/11/hello-world/"/>
+    <id>http://blog.anpengyu.top/2022/08/11/hello-world/</id>
     <published>2022-08-11T03:07:36.298Z</published>
     <updated>2022-08-11T03:07:36.298Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>Android-Binder机制</title>
-    <link href="http://blog1.anpengyu.top/2021/03/04/Android-Binder%E6%9C%BA%E5%88%B6/"/>
-    <id>http://blog1.anpengyu.top/2021/03/04/Android-Binder%E6%9C%BA%E5%88%B6/</id>
+    <link href="http://blog.anpengyu.top/2021/03/04/Android-Binder%E6%9C%BA%E5%88%B6/"/>
+    <id>http://blog.anpengyu.top/2021/03/04/Android-Binder%E6%9C%BA%E5%88%B6/</id>
     <published>2021-03-04T07:25:00.000Z</published>
     <updated>2022-08-11T03:07:36.291Z</updated>
     
@@ -57,17 +57,17 @@
     
     
     
-    <category term="Android" scheme="http://blog1.anpengyu.top/categories/Android/"/>
+    <category term="Android" scheme="http://blog.anpengyu.top/categories/Android/"/>
     
     
-    <category term="Android" scheme="http://blog1.anpengyu.top/tags/Android/"/>
+    <category term="Android" scheme="http://blog.anpengyu.top/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>算法-高级排序-希尔排序</title>
-    <link href="http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/"/>
-    <id>http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/</id>
+    <link href="http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/"/>
+    <id>http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/</id>
     <published>2021-03-04T06:38:00.000Z</published>
     <updated>2022-08-11T03:07:36.301Z</updated>
     
@@ -85,19 +85,19 @@
     
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://blog1.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://blog.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>算法-插入排序</title>
-    <link href="http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/"/>
-    <id>http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</id>
+    <link href="http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/"/>
+    <id>http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</id>
     <published>2021-03-04T06:21:00.000Z</published>
     <updated>2022-08-11T03:07:36.301Z</updated>
     
@@ -115,19 +115,19 @@
     
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://blog1.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://blog.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>算法-选择排序</title>
-    <link href="http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/"/>
-    <id>http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</id>
+    <link href="http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/"/>
+    <id>http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</id>
     <published>2021-03-04T03:23:00.000Z</published>
     <updated>2022-08-11T03:07:36.302Z</updated>
     
@@ -141,19 +141,19 @@
     
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://blog1.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://blog.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>算法-冒泡排序</title>
-    <link href="http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F/"/>
-    <id>http://blog1.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F/</id>
+    <link href="http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F/"/>
+    <id>http://blog.anpengyu.top/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F/</id>
     <published>2021-03-04T01:21:00.000Z</published>
     <updated>2022-08-11T03:07:36.301Z</updated>
     
@@ -168,19 +168,19 @@
     
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="算法" scheme="http://blog1.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="http://blog.anpengyu.top/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="排序" scheme="http://blog1.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
+    <category term="排序" scheme="http://blog.anpengyu.top/tags/%E6%8E%92%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>数据结构</title>
-    <link href="http://blog1.anpengyu.top/2021/03/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
-    <id>http://blog1.anpengyu.top/2021/03/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
+    <link href="http://blog.anpengyu.top/2021/03/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>http://blog.anpengyu.top/2021/03/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
     <published>2021-03-02T09:11:05.000Z</published>
     <updated>2022-08-11T03:07:36.299Z</updated>
     
@@ -199,8 +199,8 @@
   
   <entry>
     <title>OkHttp</title>
-    <link href="http://blog1.anpengyu.top/2021/03/02/OkHttp/"/>
-    <id>http://blog1.anpengyu.top/2021/03/02/OkHttp/</id>
+    <link href="http://blog.anpengyu.top/2021/03/02/OkHttp/"/>
+    <id>http://blog.anpengyu.top/2021/03/02/OkHttp/</id>
     <published>2021-03-02T07:48:00.000Z</published>
     <updated>2022-08-11T03:07:36.296Z</updated>
     
@@ -217,15 +217,15 @@
     
     
     
-    <category term="Android" scheme="http://blog1.anpengyu.top/categories/Android/"/>
+    <category term="Android" scheme="http://blog.anpengyu.top/categories/Android/"/>
     
     
   </entry>
   
   <entry>
     <title>设计模式-策略</title>
-    <link href="http://blog1.anpengyu.top/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5/"/>
-    <id>http://blog1.anpengyu.top/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5/</id>
+    <link href="http://blog.anpengyu.top/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5/"/>
+    <id>http://blog.anpengyu.top/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5/</id>
     <published>2021-03-02T02:21:00.000Z</published>
     <updated>2022-08-11T03:07:36.302Z</updated>
     
@@ -240,17 +240,17 @@
     
     
     
-    <category term="设计模式" scheme="http://blog1.anpengyu.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="http://blog.anpengyu.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     
-    <category term="设计模式" scheme="http://blog1.anpengyu.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="http://blog.anpengyu.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>设计模式-单例</title>
-    <link href="http://blog1.anpengyu.top/2021/02/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    <id>http://blog1.anpengyu.top/2021/02/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
+    <link href="http://blog.anpengyu.top/2021/02/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://blog.anpengyu.top/2021/02/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
     <published>2021-02-26T08:45:00.000Z</published>
     <updated>2022-08-11T03:07:36.302Z</updated>
     
@@ -266,17 +266,17 @@
     
     
     
-    <category term="设计模式" scheme="http://blog1.anpengyu.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="http://blog.anpengyu.top/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     
-    <category term="设计模式" scheme="http://blog1.anpengyu.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <category term="设计模式" scheme="http://blog.anpengyu.top/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>adb命令</title>
-    <link href="http://blog1.anpengyu.top/2021/02/26/adb%E5%91%BD%E4%BB%A4/"/>
-    <id>http://blog1.anpengyu.top/2021/02/26/adb%E5%91%BD%E4%BB%A4/</id>
+    <link href="http://blog.anpengyu.top/2021/02/26/adb%E5%91%BD%E4%BB%A4/"/>
+    <id>http://blog.anpengyu.top/2021/02/26/adb%E5%91%BD%E4%BB%A4/</id>
     <published>2021-02-26T02:54:00.000Z</published>
     <updated>2022-08-11T03:07:36.296Z</updated>
     
@@ -291,14 +291,14 @@
     
     
     
-    <category term="adb" scheme="http://blog1.anpengyu.top/tags/adb/"/>
+    <category term="adb" scheme="http://blog.anpengyu.top/tags/adb/"/>
     
   </entry>
   
   <entry>
     <title>Android-事件分发</title>
-    <link href="http://blog1.anpengyu.top/2021/02/22/Android-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/"/>
-    <id>http://blog1.anpengyu.top/2021/02/22/Android-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/</id>
+    <link href="http://blog.anpengyu.top/2021/02/22/Android-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/"/>
+    <id>http://blog.anpengyu.top/2021/02/22/Android-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/</id>
     <published>2021-02-22T08:57:00.000Z</published>
     <updated>2022-08-11T03:07:36.291Z</updated>
     
@@ -317,17 +317,17 @@
     
     
     
-    <category term="Android" scheme="http://blog1.anpengyu.top/categories/Android/"/>
+    <category term="Android" scheme="http://blog.anpengyu.top/categories/Android/"/>
     
     
-    <category term="Android-基础" scheme="http://blog1.anpengyu.top/tags/Android-%E5%9F%BA%E7%A1%80/"/>
+    <category term="Android-基础" scheme="http://blog.anpengyu.top/tags/Android-%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>Mysql-基础</title>
-    <link href="http://blog1.anpengyu.top/2021/02/20/Mysql-%E5%9F%BA%E7%A1%80/"/>
-    <id>http://blog1.anpengyu.top/2021/02/20/Mysql-%E5%9F%BA%E7%A1%80/</id>
+    <link href="http://blog.anpengyu.top/2021/02/20/Mysql-%E5%9F%BA%E7%A1%80/"/>
+    <id>http://blog.anpengyu.top/2021/02/20/Mysql-%E5%9F%BA%E7%A1%80/</id>
     <published>2021-02-20T08:41:40.000Z</published>
     <updated>2022-08-11T03:07:36.295Z</updated>
     
@@ -347,8 +347,8 @@
   
   <entry>
     <title>Flutter-透明状态栏</title>
-    <link href="http://blog1.anpengyu.top/2021/02/18/Flutter-%E9%80%8F%E6%98%8E%E7%8A%B6%E6%80%81%E6%A0%8F/"/>
-    <id>http://blog1.anpengyu.top/2021/02/18/Flutter-%E9%80%8F%E6%98%8E%E7%8A%B6%E6%80%81%E6%A0%8F/</id>
+    <link href="http://blog.anpengyu.top/2021/02/18/Flutter-%E9%80%8F%E6%98%8E%E7%8A%B6%E6%80%81%E6%A0%8F/"/>
+    <id>http://blog.anpengyu.top/2021/02/18/Flutter-%E9%80%8F%E6%98%8E%E7%8A%B6%E6%80%81%E6%A0%8F/</id>
     <published>2021-02-18T05:40:29.000Z</published>
     <updated>2022-08-11T03:07:36.294Z</updated>
     
@@ -368,8 +368,8 @@
   
   <entry>
     <title>Flutter-package</title>
-    <link href="http://blog1.anpengyu.top/2021/02/18/Flutter-package/"/>
-    <id>http://blog1.anpengyu.top/2021/02/18/Flutter-package/</id>
+    <link href="http://blog.anpengyu.top/2021/02/18/Flutter-package/"/>
+    <id>http://blog.anpengyu.top/2021/02/18/Flutter-package/</id>
     <published>2021-02-18T02:42:00.000Z</published>
     <updated>2022-08-11T03:07:36.293Z</updated>
     
@@ -383,17 +383,17 @@
     
     
     
-    <category term="Flutter" scheme="http://blog1.anpengyu.top/categories/Flutter/"/>
+    <category term="Flutter" scheme="http://blog.anpengyu.top/categories/Flutter/"/>
     
     
-    <category term="Flutter-基础" scheme="http://blog1.anpengyu.top/tags/Flutter-%E5%9F%BA%E7%A1%80/"/>
+    <category term="Flutter-基础" scheme="http://blog.anpengyu.top/tags/Flutter-%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>Flutter-错误处理 List＜dynamic＞‘ is not a subtype of type ‘List＜xxx＞</title>
-    <link href="http://blog1.anpengyu.top/2021/01/21/Flutter-List%EF%BC%9Cdynamic%EF%BC%9E%E2%80%98-is-not-a-subtype-of-type-%E2%80%98List%EF%BC%9CDiskFile%EF%BC%9E/"/>
-    <id>http://blog1.anpengyu.top/2021/01/21/Flutter-List%EF%BC%9Cdynamic%EF%BC%9E%E2%80%98-is-not-a-subtype-of-type-%E2%80%98List%EF%BC%9CDiskFile%EF%BC%9E/</id>
+    <link href="http://blog.anpengyu.top/2021/01/21/Flutter-List%EF%BC%9Cdynamic%EF%BC%9E%E2%80%98-is-not-a-subtype-of-type-%E2%80%98List%EF%BC%9CDiskFile%EF%BC%9E/"/>
+    <id>http://blog.anpengyu.top/2021/01/21/Flutter-List%EF%BC%9Cdynamic%EF%BC%9E%E2%80%98-is-not-a-subtype-of-type-%E2%80%98List%EF%BC%9CDiskFile%EF%BC%9E/</id>
     <published>2021-01-21T02:16:00.000Z</published>
     <updated>2022-08-11T03:07:36.292Z</updated>
     
@@ -409,19 +409,19 @@
     
     
     
-    <category term="Flutter" scheme="http://blog1.anpengyu.top/categories/Flutter/"/>
+    <category term="Flutter" scheme="http://blog.anpengyu.top/categories/Flutter/"/>
     
-    <category term="Flutter-异常" scheme="http://blog1.anpengyu.top/categories/Flutter/Flutter-%E5%BC%82%E5%B8%B8/"/>
+    <category term="Flutter-异常" scheme="http://blog.anpengyu.top/categories/Flutter/Flutter-%E5%BC%82%E5%B8%B8/"/>
     
     
-    <category term="Flutter" scheme="http://blog1.anpengyu.top/tags/Flutter/"/>
+    <category term="Flutter" scheme="http://blog.anpengyu.top/tags/Flutter/"/>
     
   </entry>
   
   <entry>
     <title>k8s 入门</title>
-    <link href="http://blog1.anpengyu.top/2020/12/28/k8s-%E5%85%A5%E9%97%A8/"/>
-    <id>http://blog1.anpengyu.top/2020/12/28/k8s-%E5%85%A5%E9%97%A8/</id>
+    <link href="http://blog.anpengyu.top/2020/12/28/k8s-%E5%85%A5%E9%97%A8/"/>
+    <id>http://blog.anpengyu.top/2020/12/28/k8s-%E5%85%A5%E9%97%A8/</id>
     <published>2020-12-28T05:08:50.000Z</published>
     <updated>2022-08-11T03:07:36.299Z</updated>
     
@@ -448,8 +448,8 @@
   
   <entry>
     <title>部署操作手册</title>
-    <link href="http://blog1.anpengyu.top/2020/12/25/%E9%83%A8%E7%BD%B2%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
-    <id>http://blog1.anpengyu.top/2020/12/25/%E9%83%A8%E7%BD%B2%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</id>
+    <link href="http://blog.anpengyu.top/2020/12/25/%E9%83%A8%E7%BD%B2%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <id>http://blog.anpengyu.top/2020/12/25/%E9%83%A8%E7%BD%B2%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</id>
     <published>2020-12-25T07:24:00.000Z</published>
     <updated>2022-08-11T03:07:36.302Z</updated>
     
@@ -465,15 +465,15 @@
     
     
     
-    <category term="部署" scheme="http://blog1.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/"/>
+    <category term="部署" scheme="http://blog.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/"/>
     
     
   </entry>
   
   <entry>
     <title>Lens</title>
-    <link href="http://blog1.anpengyu.top/2020/12/25/Lens/"/>
-    <id>http://blog1.anpengyu.top/2020/12/25/Lens/</id>
+    <link href="http://blog.anpengyu.top/2020/12/25/Lens/"/>
+    <id>http://blog.anpengyu.top/2020/12/25/Lens/</id>
     <published>2020-12-25T02:00:00.000Z</published>
     <updated>2022-08-11T03:07:36.295Z</updated>
     
@@ -487,19 +487,19 @@
     
     
     
-    <category term="部署" scheme="http://blog1.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/"/>
+    <category term="部署" scheme="http://blog.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/"/>
     
     
-    <category term="k3s" scheme="http://blog1.anpengyu.top/tags/k3s/"/>
+    <category term="k3s" scheme="http://blog.anpengyu.top/tags/k3s/"/>
     
-    <category term="k8s" scheme="http://blog1.anpengyu.top/tags/k8s/"/>
+    <category term="k8s" scheme="http://blog.anpengyu.top/tags/k8s/"/>
     
   </entry>
   
   <entry>
     <title>Helm操作</title>
-    <link href="http://blog1.anpengyu.top/2020/12/24/Helm%E6%93%8D%E4%BD%9C/"/>
-    <id>http://blog1.anpengyu.top/2020/12/24/Helm%E6%93%8D%E4%BD%9C/</id>
+    <link href="http://blog.anpengyu.top/2020/12/24/Helm%E6%93%8D%E4%BD%9C/"/>
+    <id>http://blog.anpengyu.top/2020/12/24/Helm%E6%93%8D%E4%BD%9C/</id>
     <published>2020-12-24T06:40:00.000Z</published>
     <updated>2022-08-11T03:07:36.294Z</updated>
     
@@ -516,16 +516,16 @@
     
     
     
-    <category term="部署" scheme="http://blog1.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/"/>
+    <category term="部署" scheme="http://blog.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/"/>
     
-    <category term="k8s" scheme="http://blog1.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/k8s/"/>
+    <category term="k8s" scheme="http://blog.anpengyu.top/categories/%E9%83%A8%E7%BD%B2/k8s/"/>
     
     
-    <category term="部署" scheme="http://blog1.anpengyu.top/tags/%E9%83%A8%E7%BD%B2/"/>
+    <category term="部署" scheme="http://blog.anpengyu.top/tags/%E9%83%A8%E7%BD%B2/"/>
     
-    <category term="k3s" scheme="http://blog1.anpengyu.top/tags/k3s/"/>
+    <category term="k3s" scheme="http://blog.anpengyu.top/tags/k3s/"/>
     
-    <category term="k8s" scheme="http://blog1.anpengyu.top/tags/k8s/"/>
+    <category term="k8s" scheme="http://blog.anpengyu.top/tags/k8s/"/>
     
   </entry>
   
