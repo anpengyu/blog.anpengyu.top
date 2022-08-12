@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>宇~空间</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-08-11T03:07:36.298Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>宇</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/08/11/hello-world/"/>
+    <id>http://example.com/2022/08/11/hello-world/</id>
+    <published>2022-08-11T03:07:36.298Z</published>
+    <updated>2022-08-11T03:07:36.298Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android-Binder机制</title>
+    <link href="http://example.com/2021/03/04/Android-Binder%E6%9C%BA%E5%88%B6/"/>
+    <id>http://example.com/2021/03/04/Android-Binder%E6%9C%BA%E5%88%B6/</id>
+    <published>2021-03-04T07:25:00.000Z</published>
+    <updated>2022-08-11T03:07:36.291Z</updated>
+    
+    <content type="html"><![CDATA[<p>binder是什么？</p><ul><li>进程间通信机制</li><li>一个驱动</li><li>Binder.java –&gt; 实现IBinder –&gt;跨进程能力  <br>  + 自己创建的进程：webview 视频播放、音乐、大图浏览、推送  <br>  + 系统服务：打电话、闹钟  </li></ul><p>多进程有点：  <br>   + 内存—&gt;一个app所占用内存有限  <br>adb shell<br>      - getprop dalvik.vm.heapsize<br>   + 风险隔离—&gt;每一个进程，都是单独的一个APP<br>   + 性能 小于共享内存，优于其他IPC进程间通信<br>   + 安全—&gt;为每个APP分配UID，同时支持实名和匿名</p><p><img src="/images/pasted-22.png" alt="upload successful"></p><p>进程间通信：  <br>内存被操作系统划分成两块：用户空间和内核空间，用户空间是用户程序代码运行的地方，内核空间是内核代码运行的地方。为了安全，它们是隔离的，即使用户的程序崩溃了，内核也不受影响  </p><p>传统IPC机制，拷贝两次<br>IBinder机制，拷贝一次</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;binder是什么？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;进程间通信机制&lt;/li&gt;
+&lt;li&gt;一个驱动&lt;/li&gt;
+&lt;li&gt;Binder.java –&amp;gt; 实现IBinder –&amp;gt;跨进程能力  &lt;br&gt;  + 自己创建的进程：webview 视频播放、音乐、大图浏览、推送  &lt;</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="http://example.com/categories/Android/"/>
+    
+    
+    <category term="Android" scheme="http://example.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法-高级排序-希尔排序</title>
+    <link href="http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/"/>
+    <id>http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F/</id>
+    <published>2021-03-04T06:38:00.000Z</published>
+    <updated>2022-08-11T03:07:36.301Z</updated>
+    
+    <content type="html"><![CDATA[<p>希尔排序是插入排序的一种，又称“缩小增量排序”，是插入排序算法的一种更高效的改进版本。  </p><ol><li>选定一个增长量h，按照增长量h作为数据分组的依据，对数据进行分组。</li><li>对分好组的每一组数据完成插入排序</li><li>减小增长量，最小减为1，重复第二步操作  </li></ol><p>增长量h的确定：  <br><img src="/images/pasted-21.png" alt="upload successful"></p><pre><code>int h=1;while(h&lt;数组的长度/2)&#123;   h=2h+1;&#125;//循环结束后我们就可以确定h的最大值；h的减小规则为：  h=h/2```  </code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;希尔排序是插入排序的一种，又称“缩小增量排序”，是插入排序算法的一种更高效的改进版本。  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;选定一个增长量h，按照增长量h作为数据分组的依据，对数据进行分组。&lt;/li&gt;
+&lt;li&gt;对分好组的每一组数据完成插入排序&lt;/li&gt;
+&lt;li&gt;减小增长量，最小减</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法-插入排序</title>
+    <link href="http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/"/>
+    <id>http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</id>
+    <published>2021-03-04T06:21:00.000Z</published>
+    <updated>2022-08-11T03:07:36.301Z</updated>
+    
+    <content type="html"><![CDATA[<p>原理：  </p><ol><li>把所有元素分为两组，已经排序和未排序的</li><li>找到未排序组中的第一个元素，向已经排序的组中插入</li><li>倒叙便利已经排序的元素，依次和待插入的元素进行比较，直到找到一个元素小于等于待插入元素，那么就把待插入元素放到这个位置，其他的元素向后移动一位。</li></ol><p><img src="/images/pasted-20.png" alt="upload successful">  </p><pre><code>public class InsertionSort &#123;    public static void srt(Comparable[] a) &#123;        for (int i = 1; i &lt; a.length; i++) &#123;           for(int j=i;j&gt;0;j--)&#123;               //比较索引j处的值和索引j-1的值，如果索引j-1处的值大，则交换数据               if(greater(a[j-1],a[j]))&#123;                    exch(a,j-1,j);               &#125;else&#123;                   break;               &#125;           &#125;        &#125;    &#125;    //比较v元素是否大于w元素    private static boolean greater(Comparable v, Comparable w) &#123;        return v.compareTo(w) &gt; 0;    &#125;    //数组元素i和j交换位置    private static void exch(Comparable[] a, int i, int j) &#123;        Comparable temp;        temp = a[i];        a[i] = a[j];        a[j] = temp;    &#125;&#125;```  分析：  使用了双层for循环，其中内层循环的循环体是真正排序的代码，主要分析内层循环体的执行次数即可。  比较次数为：  (N-1)+(N-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;  交换次数为：  (N-1)+(n-2)+(N-3)+...+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;  总执行次数为：  (N^2/2-n/2)+(N^2/2-N/2)=N^2-N;  按照大O推导法则，保留函数中的最高阶项，时间复杂度为O(N^2)</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原理：  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;把所有元素分为两组，已经排序和未排序的&lt;/li&gt;
+&lt;li&gt;找到未排序组中的第一个元素，向已经排序的组中插入&lt;/li&gt;
+&lt;li&gt;倒叙便利已经排序的元素，依次和待插入的元素进行比较，直到找到一个元素小于等于待插入元素，那么就把待插入元素放到</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法-选择排序</title>
+    <link href="http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/"/>
+    <id>http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F/</id>
+    <published>2021-03-04T03:23:00.000Z</published>
+    <updated>2022-08-11T03:07:36.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>原理：  <br>每一次遍历的过程中，都假定第一个索引处的元素是最小值，和其他索引处的值依次进行比较，如果当前索引处的值大于其他某个索引处的值，则假定其他某个索引处的值为最小值，最后可以找到最小值所在的索引。  <br>交换第一个索引处和最小值所在的索引处的值   </p><p>时间复杂度和冒泡排序一样</p><p><img src="/images/pasted-19.png" alt="upload successful"></p><p>```<br>public class SelectSort {</p><pre><code>public static void srt(Comparable[] a) &#123;    for (int i = 0; i &lt; a.length - 1; i++) &#123;        int minIndex = i;        for (int j = i + 1; j &lt; a.length; j++) &#123;            //需要比较最小索引minIndex处的值和j索引处的值            if (greater(a[minIndex], a[j])) &#123;                minIndex = j;            &#125;        &#125;        //交换最小元素所在索引minIndex处的值和索引i处的值        exch(a,i,minIndex);    &#125;&#125;//比较v元素是否大于w元素private static boolean greater(Comparable v, Comparable w) &#123;    return v.compareTo(w) &gt; 0;&#125;//数组元素i和j交换位置private static void exch(Comparable[] a, int i, int j) &#123;    Comparable temp;    temp = a[i];    a[i] = a[j];    a[j] = temp;&#125;</code></pre><p>}</p><p>```  <br>双层for循环，外层循环完成了数据交换，内层循环完成了数据比较  <br>数据比较次数：<br>(N-1)+(N-2)+(N-3)+…+2+1=((N-1)+1)*(N-1)/2=N^2/2-N/2;<br>数据交换次数：<br>N-1  </p><p>时间复杂度：N^2/2-N/2+(N-1)=N^2/2+N/2-1;  <br>根据大O推到法则，保留最高阶项，去除常数因子，时间复杂度为O(N^2)</p><p>大O推导法则，保留最高阶项，去除常数因子</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原理：  &lt;br&gt;每一次遍历的过程中，都假定第一个索引处的元素是最小值，和其他索引处的值依次进行比较，如果当前索引处的值大于其他某个索引处的值，则假定其他某个索引处的值为最小值，最后可以找到最小值所在的索引。  &lt;br&gt;交换第一个索引处和最小值所在的索引处的值   &lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法-冒泡排序</title>
+    <link href="http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F/"/>
+    <id>http://example.com/2021/03/04/%E7%AE%97%E6%B3%95-%E6%8E%92%E5%BA%8F/</id>
+    <published>2021-03-04T01:21:00.000Z</published>
+    <updated>2022-08-11T03:07:36.301Z</updated>
+    
+    <content type="html"><![CDATA[<p>java提供了Comparable定义排序规则</p><p>Bubble Sort  <br>原理：  <br>比较相邻的两个元素。如果前一个元素比后一个元素大，就交换这两个元素的位置。  <br>对每一对相邻的元素做同样的动作，从开始第一对元素到结尾的最后一对元素。最终最后一个元素就是最大值。  <br>适用于排序元素较小，并且不是逆序的情况。如果是逆序，冒泡排序的时间复杂度太高。</p><p><img src="/images/pasted-18.png" alt="upload successful">  </p><pre><code>//冒泡排序public class Bubble &#123;    //对数组a中的元素进行排序    public static void sort(Comparable[]  a)&#123;        for(int i=a.length-1;i&gt;0;i--)&#123;            for(int j=0;j&lt;i;j++)&#123;                if(greater(a[j],a[j+1]))&#123;                    exch(a,j,j+1);                &#125;            &#125;        &#125;    &#125;    //比较v元素是否大于w元素    private static boolean greater(Comparable v,Comparable w)&#123;        return v.compareTo(w)&gt;0;    &#125;    //数组元素i和j交换位置    private static void exch(Comparable[] a,int i,int j)&#123;        Comparable temp;        temp = a[i];        a[i] = a[j];        a[j] = temp;    &#125;&#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;java提供了Comparable定义排序规则&lt;/p&gt;
+&lt;p&gt;Bubble Sort  &lt;br&gt;原理：  &lt;br&gt;比较相邻的两个元素。如果前一个元素比后一个元素大，就交换这两个元素的位置。  &lt;br&gt;对每一对相邻的元素做同样的动作，从开始第一对元素到结尾的最后一对元素。最终</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="http://example.com/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="排序" scheme="http://example.com/tags/%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="http://example.com/2021/03/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>http://example.com/2021/03/02/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</id>
+    <published>2021-03-02T09:11:05.000Z</published>
+    <updated>2022-08-11T03:07:36.299Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="数据结构就是把数据元素按照一定的关系组合起来的集合，用来组合和存储数据。"><a href="#数据结构就是把数据元素按照一定的关系组合起来的集合，用来组合和存储数据。" class="headerlink" title="数据结构就是把数据元素按照一定的关系组合起来的集合，用来组合和存储数据。"></a>数据结构就是把数据元素按照一定的关系组合起来的集合，用来组合和存储数据。</h3><p>传统上，数据结构分为两大类：逻辑结构和物理结构。  </p><h6 id="逻辑结构是按照数据与数据之间的关系分类的，是抽象意义上的分类。"><a href="#逻辑结构是按照数据与数据之间的关系分类的，是抽象意义上的分类。" class="headerlink" title="逻辑结构是按照数据与数据之间的关系分类的，是抽象意义上的分类。"></a>逻辑结构是按照数据与数据之间的关系分类的，是抽象意义上的分类。</h6><ul><li>集合结构<br>数据元素除了属于同一个集合外，他们之间没有任何其他关系</li><li>线性结构<br>数据元素之间存在一对一的关系</li><li>树形结构<br>数据元素之间存在一对多的层次关系</li><li>图形结构<br>数据元素为多对多元素</li></ul><h6 id="物理结构是从计算机存储角度上进行分类"><a href="#物理结构是从计算机存储角度上进行分类" class="headerlink" title="物理结构是从计算机存储角度上进行分类"></a>物理结构是从计算机存储角度上进行分类</h6><p>是逻辑结构在计算机中真正的表现方式，又称为映像，也可以叫存储结构  </p><ul><li>顺序存储结构<br>把数据元素放到地址连续的存储单元里，其数据间的逻辑关系和物理关系是一致的，比如我们常用的数组就是顺序存储结构<br>弊端：如果中间有一环变化，整个结构都发生变化。</li><li>链式存储结构<br>把数据结构存储在任意的存储单元里，这组存储单元可以是连续的也可以是不连续的。在链式存储结构中引进了指针存放数据元素地址，这样可以通过地址找到元素的位置</li></ul><h3 id="算法就是追求用最少的时间，占用最少的空间完成需求"><a href="#算法就是追求用最少的时间，占用最少的空间完成需求" class="headerlink" title="算法就是追求用最少的时间，占用最少的空间完成需求"></a>算法就是追求用最少的时间，占用最少的空间完成需求</h3><p>不同算法的体验，求1到100的和：  </p><pre><code>public static void main ()&#123;        int sum=0;        int n =100;        for(int i=0;i&lt;n;i++)&#123;            sum+=i;        &#125;    &#125;    public static void main1()&#123;        int sum=0;        int n=100;        sum=(n+1)*n/2;    &#125;</code></pre><p>10的阶乘：  </p><pre><code> public static long test(long n)&#123;        if(n==1)&#123;            return 1;        &#125;        return n*test(n-1);    &#125;    public static long test1(long n)&#123;        int result = 1;        for(long i=1;i&lt;n;i++)&#123;            result*=i;        &#125;        return result;    &#125;</code></pre><p>算法中，对时间进行分析如何占用最少的时间称为时间复杂度分析<br>对空间占用最少称为空间复杂度分析</p><p>算法分析：  </p><ol><li>算法采用的策略和方案</li><li>编译产生的代码方案</li><li>问题输入的规模（输入量是多少）</li><li>机器执行指令的的速度  </li></ol><p>分析一个算法的运行时间，最重要的就是把核心操作的次数和输入规模关联起来。  </p><p>大O推导法则，保留最高阶项，去除常数因子</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;数据结构就是把数据元素按照一定的关系组合起来的集合，用来组合和存储数据。&quot;&gt;&lt;a href=&quot;#数据结构就是把数据元素按照一定的关系组合起来的集合，用来组合和存储数据。&quot; class=&quot;headerlink&quot; title=&quot;数据结构就是把数据元素按照一定的关系组合</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>OkHttp</title>
+    <link href="http://example.com/2021/03/02/OkHttp/"/>
+    <id>http://example.com/2021/03/02/OkHttp/</id>
+    <published>2021-03-02T07:48:00.000Z</published>
+    <updated>2022-08-11T03:07:36.296Z</updated>
+    
+    <content type="html"><![CDATA[<p>Android 4.4开始HttpUrlConnection底层实现采用OkHttp。<br>特点：  </p><ol><li>支持http2并允许对同一主机的所有请求共享一个套接字。</li><li>如果是非http2，则通过连接池，减少了请求延迟。Http是TCP协议，socket短连接，一次请求结束后则释放掉当前连接，每次调用接口都需要重新建立http连接。使用连接池会缓存http连接，快速响应。无需重复创建。</li><li>默认请求GZip压缩数据；</li><li>响应缓存，避免了重复请求的网络</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Android 4.4开始HttpUrlConnection底层实现采用OkHttp。&lt;br&gt;特点：  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;支持http2并允许对同一主机的所有请求共享一个套接字。&lt;/li&gt;
+&lt;li&gt;如果是非http2，则通过连接池，减少了请求延迟。Http是TCP</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="http://example.com/categories/Android/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式-策略</title>
+    <link href="http://example.com/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5/"/>
+    <id>http://example.com/2021/03/02/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AD%96%E7%95%A5/</id>
+    <published>2021-03-02T02:21:00.000Z</published>
+    <updated>2022-08-11T03:07:36.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>该模式的优势在于，无论对任何事物进行排序，不需要修改最终排序方法，不用修改代码，只需要传入不同的排序策略即可。完美实现了开闭原则，对修改关闭，对扩展打开。</p><p> 对一种事物进行排序<br> 比如：长、宽、高等<br> 不同的方式所排序的规则也不同<br> 在不改变原有代码前提下随意切换任意一种排序策略  </p><ol><li><p>创建通用比较方法接口  </p><pre><code>@FunctionalInterfacepublic interface Comparator&lt;T&gt; &#123;    int compare(T o1,T o2);&#125;</code></pre></li><li><p>创建排序（快速排序） </p><pre><code>public class Sorter&lt;T&gt; &#123;public void sort(T[] arr, Comparator&lt;T&gt; comparator) &#123;    for (int i = 0; i &lt; arr.length - 1; i++) &#123;        int minPos = i;        for (int j = i + 1; j &lt; arr.length; j++) &#123;            minPos = comparator.compare(arr[j], arr[minPos]) == -1 ? j :minPos;        &#125;            swap(arr, i, minPos);        &#125;    &#125;      private void swap(T[] arr, int i, int minPos) &#123;      T temp = arr[i];      arr[i] = arr[minPos];      arr[minPos] = temp;    &#125;&#125;</code></pre></li><li><p>实现Comparator接口，实现具体排序方法<br>创建了两种实现类，其中compare具体的排序方式不同</p><pre><code>public class CatHeightComparator implements Comparator&lt;Cat&gt;&#123;@Overridepublic int compare(Cat o1, Cat o2) &#123;    if(o1.height&gt;o2.height)&#123;        return -1;    &#125;else if(o1.height&lt;o2.height)&#123;        return 1;    &#125;    return 0;&#125;&#125;</code></pre><p>创建第二种策略</p><pre><code>public class CatHeightComparator implements Comparator&lt;Cat&gt;&#123;@Overridepublic int compare(Cat o1, Cat o2) &#123;    if(o1.widget&lt;o2.widget)&#123;        return -1;    &#125;else if(o1.widget&lt;o2.widget)&#123;        return 1;    &#125;    return 0;&#125;&#125;</code></pre></li><li><p>传入不同的排序策略进行排序  </p><pre><code>Cat[] c1 = &#123;new Cat(1,1),new Cat(5,5),new Cat(3,3)&#125;;Sorter&lt;Cat&gt; sorter = new Sorter&lt;&gt;();sorter.sort(c1,new CatHeightComparator());sorter.sort(c1,new CatWeightComparator());Log.e(&quot;策略模式&quot;, Arrays.toString(a));</code></pre></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;该模式的优势在于，无论对任何事物进行排序，不需要修改最终排序方法，不用修改代码，只需要传入不同的排序策略即可。完美实现了开闭原则，对修改关闭，对扩展打开。&lt;/p&gt;
+&lt;p&gt; 对一种事物进行排序&lt;br&gt; 比如：长、宽、高等&lt;br&gt; 不同的方式所排序的规则也不同&lt;br&gt; 在不改变</summary>
+      
+    
+    
+    
+    <category term="设计模式" scheme="http://example.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="http://example.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式-单例</title>
+    <link href="http://example.com/2021/02/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://example.com/2021/02/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</id>
+    <published>2021-02-26T08:45:00.000Z</published>
+    <updated>2022-08-11T03:07:36.302Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>单例设计模式 Singleton</code><br>只需要有一个实例存在，比如各种Factory，各种Utils<br>重点：私有化构造方法，外部不允许new该对象。</p><ol><li><p>饿汉式<br>特点：类加载到内存后，就实例一个对象，线程安全<br>缺点：无论用到与否，类加载后都会实例对象。</p><figure class="highlight java"><table><tr><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">SimpleSingle</span> &#123;<br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">String</span> <span class="hljs-variable">TAG</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;SimpleSingle&quot;</span>;<br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">SimpleSingle</span> <span class="hljs-variable">instance</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">SimpleSingle</span>();<br>    <span class="hljs-keyword">private</span> <span class="hljs-title function_">SimpleSingle</span><span class="hljs-params">()</span>&#123;&#125;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> SimpleSingle <span class="hljs-title function_">getInstance</span><span class="hljs-params">()</span>&#123;<br>        <span class="hljs-keyword">return</span> instance;<br>    &#125;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">say</span><span class="hljs-params">(Context context)</span>&#123;<br>        Toast.makeText(context,<span class="hljs-string">&quot;饿汉式单例&quot;</span>,Toast.LENGTH_SHORT).show();<br>    &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure></li><li><p>懒汉式</p><p>特点：用到的时候才初始化实例<br>缺点：无法保证对象唯一，线程不安全  </p><figure class="highlight csharp"><table><tr><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title">LazySingle</span> &#123;<br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> String TAG = <span class="hljs-string">&quot;SimpleSingle&quot;</span>;<br>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> LazySingle instance = <span class="hljs-literal">null</span>;<br>    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-title">LazySingle</span>()</span> &#123;<br>    &#125;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> LazySingle <span class="hljs-title">getInstance</span>()</span> &#123;<br>        <span class="hljs-keyword">if</span> (instance == <span class="hljs-literal">null</span>) &#123;<br>            instance = <span class="hljs-keyword">new</span> LazySingle();<br>        &#125;<br>        <span class="hljs-keyword">return</span> instance;<br>    &#125;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">say</span>(<span class="hljs-params">Context context</span>)</span> &#123;<br>        Toast.makeText(context, <span class="hljs-string">&quot;懒汉式单例&quot;</span>, Toast.LENGTH_SHORT).show();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></li><li><p>双重锁<br>由于懒汉式虽然达到了使用时才实例化的目的，但是线程不安全，所以在此基础上通过加锁保证线程安全，实例唯一<br>缺点：繁琐<br>注意：加上volatile，防止指令重排，会返回没有实例化的instance。</p><figure class="highlight smali"><table><tr><td class="code"><pre><code class="hljs smali">public class SafeSingle &#123;<br>   <span class="hljs-keyword"> private</span><span class="hljs-keyword"> static</span> String TAG = <span class="hljs-string">&quot;SimpleSingle&quot;</span>;<br>   <span class="hljs-keyword"> private</span><span class="hljs-keyword"> static</span> volatile SafeSingle<span class="hljs-built_in"> instance </span>= null;<br>   <span class="hljs-keyword"> private</span> SafeSingle() &#123;<br>    &#125;<br>   <span class="hljs-keyword"> public</span><span class="hljs-keyword"> static</span> SafeSingle getInstance() &#123;<br>       <span class="hljs-built_in"> if </span>(instance == null) &#123;<br>            synchronized (SafeSingle.class) &#123;<br>               <span class="hljs-built_in"> if </span>(instance == null) &#123;<br>                   <span class="hljs-built_in"> instance </span>=<span class="hljs-built_in"> new </span>SafeSingle();<br>                &#125;<br>            &#125;<br>        &#125;<br>       <span class="hljs-built_in"> return </span>instance;<br>    &#125;<br>   <span class="hljs-keyword"> public</span> void say(Context context) &#123;<br>        Toast.makeText(context, <span class="hljs-string">&quot;线程安全单例&quot;</span>, Toast.LENGTH_SHORT).show();<br>    &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure></li><li><p>完美写法，内部类<br>懒汉式+双重锁虽然保证线程安全，但是写法太繁琐，并且加载时判断过多<br>内部类写法在饿汉式基础上改善，保证用到时加载实例，并且线程安全  </p><figure class="highlight smali"><table><tr><td class="code"><pre><code class="hljs smali">public class InnerSingle &#123;<br>   <span class="hljs-keyword"> private</span> InnerSingle()&#123;&#125;<br>   <span class="hljs-keyword"> private</span><span class="hljs-keyword"> static</span> class InnerSingleHolder&#123;<br>       <span class="hljs-keyword"> private</span><span class="hljs-keyword"> final</span><span class="hljs-keyword"> static</span> InnerSingle<span class="hljs-built_in"> instance </span>=<span class="hljs-built_in"> new </span>InnerSingle();<br>    &#125;<br>   <span class="hljs-keyword"> public</span><span class="hljs-keyword"> static</span> InnerSingle getInstance()&#123;<br>       <span class="hljs-built_in"> return </span>InnerSingleHolder.instance;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></li><li><p>枚举单例<br>最简单，即安全又”安全”，防止序列化<br>java可以通过class文件将类加载到内存中new出来，枚举没有构造方法不会被反序列化， </p></li></ol><figure class="highlight csharp"><table><tr><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">public</span> <span class="hljs-built_in">enum</span>  EnumSingle &#123;<br>    INSTANCE;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">say</span>()</span>&#123;<br>        <br>    &#125; <br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;单例设计模式 Singleton&lt;/code&gt;&lt;br&gt;只需要有一个实例存在，比如各种Factory，各种Utils&lt;br&gt;重点：私有化构造方法，外部不允许new该对象。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;饿汉式&lt;br&gt;特点：类加载到内存后，就实例一个对象，线程安全</summary>
+      
+    
+    
+    
+    <category term="设计模式" scheme="http://example.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="设计模式" scheme="http://example.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>adb命令</title>
+    <link href="http://example.com/2021/02/26/adb%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2021/02/26/adb%E5%91%BD%E4%BB%A4/</id>
+    <published>2021-02-26T02:54:00.000Z</published>
+    <updated>2022-08-11T03:07:36.296Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>adb devices</code>  查看连接设备<br><code>adb install xxx.apk</code>  安装应用<br><code>adb install -r -d xxx.apk</code>  -r:强制安装  -d:安装低版本apk  <br><code>adb shell</code> 挂载到手机设备<br>     - getprop dalvik.vm.heapsize 一个进程所占用内存</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;adb devices&lt;/code&gt;  查看连接设备&lt;br&gt;&lt;code&gt;adb install xxx.apk&lt;/code&gt;  安装应用&lt;br&gt;&lt;code&gt;adb install -r -d xxx.apk&lt;/code&gt;  -r:强制安装  -d:安装低版本ap</summary>
+      
+    
+    
+    
+    
+    <category term="adb" scheme="http://example.com/tags/adb/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android-事件分发</title>
+    <link href="http://example.com/2021/02/22/Android-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/"/>
+    <id>http://example.com/2021/02/22/Android-%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/</id>
+    <published>2021-02-22T08:57:00.000Z</published>
+    <updated>2022-08-11T03:07:36.291Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>事件是如何传递的？</li><li>事件冲突的原因</li><li>事件冲突的解决方法</li></ul><p>Android的事件分发为从上往下分发<br>1、事件类型：<br><code>MotionEvent.ACTION_DOWN  按下，所有事件的开始</code><br><code>MotionEvent.ACTION_UP    抬起</code><br><code>MotionEvent.ACTION_MOVE  滑动</code><br><code>MotionEvent.ACTION_CANCEL  被上层拦截</code><br>事件列：从按下到抬起中发生的一系列事件</p><p><img src="/images/pasted-16.png" alt="upload successful"></p><p>2、事件传递的对象<br>Activity、ViewGroup、View以及View的派生类</p><p><img src="/images/pasted-17.png" alt="upload successful"><br>分发过程：Activity-&gt;ViewGroup-&gt;View<br>ViewGroup：<br>LinearLayout、RelativeLayout、GridLayout、FrameLayout、Toolbar、ListView、RecyclerVie..</p><p>3、事件分发核心方法</p><figure class="highlight stylus"><table><tr><td class="code"><pre><code class="hljs stylus"><span class="hljs-function"><span class="hljs-title">dispatchTouchEvent</span><span class="hljs-params">()</span></span> 分发事件<br><span class="hljs-function"><span class="hljs-title">onTouchEvent</span><span class="hljs-params">()</span></span> 处理事件(View只处理事件，没有分发)<br><span class="hljs-function"><span class="hljs-title">onInterceptTouchEvent</span><span class="hljs-params">()</span></span> 判断是否拦截事件，只存在ViewGroup中<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;事件是如何传递的？&lt;/li&gt;
+&lt;li&gt;事件冲突的原因&lt;/li&gt;
+&lt;li&gt;事件冲突的解决方法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Android的事件分发为从上往下分发&lt;br&gt;1、事件类型：&lt;br&gt;&lt;code&gt;MotionEvent.ACTION_DOWN  按下，所有事</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="http://example.com/categories/Android/"/>
+    
+    
+    <category term="Android-基础" scheme="http://example.com/tags/Android-%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql-基础</title>
+    <link href="http://example.com/2021/02/20/Mysql-%E5%9F%BA%E7%A1%80/"/>
+    <id>http://example.com/2021/02/20/Mysql-%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-02-20T08:41:40.000Z</published>
+    <updated>2022-08-11T03:07:36.295Z</updated>
+    
+    <content type="html"><![CDATA[<p>分组获取数量<br><code>SELECT s.photo_type,count(*) as count FROM photo s WHERE userid = ? group by s.photo_type;</code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;分组获取数量&lt;br&gt;&lt;code&gt;SELECT s.photo_type,count(*) as count FROM photo s WHERE userid = ? group by s.photo_type;&lt;/code&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Flutter-透明状态栏</title>
+    <link href="http://example.com/2021/02/18/Flutter-%E9%80%8F%E6%98%8E%E7%8A%B6%E6%80%81%E6%A0%8F/"/>
+    <id>http://example.com/2021/02/18/Flutter-%E9%80%8F%E6%98%8E%E7%8A%B6%E6%80%81%E6%A0%8F/</id>
+    <published>2021-02-18T05:40:29.000Z</published>
+    <updated>2022-08-11T03:07:36.294Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>sys_tools.dart</code></p><figure class="highlight haskell"><table><tr><td class="code"><pre><code class="hljs haskell"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-type">SysTools</span> &#123;</span><br><span class="hljs-class">  /// 设置状态栏为透明的</span><br><span class="hljs-class">  static setTransparentTitleBarColor() &#123;</span><br><span class="hljs-class">    <span class="hljs-type">SystemUiOverlayStyle</span> systemUiOverlayStyle = <span class="hljs-type">SystemUiOverlayStyle</span>(</span><br><span class="hljs-class">      <span class="hljs-title">statusBarColor</span>: <span class="hljs-type">Colors</span>.<span class="hljs-title">transparent</span>,</span><br><span class="hljs-class">      <span class="hljs-title">systemNavigationBarColor</span>: <span class="hljs-type">Colors</span>.<span class="hljs-title">black</span>,</span><br><span class="hljs-class">    );</span><br><span class="hljs-class">    <span class="hljs-type">SystemChrome</span>.setSystemUIOverlayStyle(<span class="hljs-title">systemUiOverlayStyle</span>);</span><br><span class="hljs-class">    // //强制竖屏</span><br><span class="hljs-class">    // <span class="hljs-type">SystemChrome</span>.setPreferredOrientations(</span><br><span class="hljs-class">    //     [<span class="hljs-type">DeviceOrientation</span>.<span class="hljs-title">landscapeLeft</span>, <span class="hljs-type">DeviceOrientation</span>.<span class="hljs-title">landscapeRight</span>]);</span><br><span class="hljs-class">  &#125;</span><br><span class="hljs-class">&#125;</span><br></code></pre></td></tr></table></figure><p><code>main.dart</code></p><figure class="highlight reasonml"><table><tr><td class="code"><pre><code class="hljs reasonml">run<span class="hljs-constructor">App(MyApp()</span>))<br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">SysTools</span>.</span></span>set<span class="hljs-constructor">TransparentTitleBarColor()</span>;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;sys_tools.dart&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight haskell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs haskell&quot;&gt;&lt;span class</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Flutter-package</title>
+    <link href="http://example.com/2021/02/18/Flutter-package/"/>
+    <id>http://example.com/2021/02/18/Flutter-package/</id>
+    <published>2021-02-18T02:42:00.000Z</published>
+    <updated>2022-08-11T03:07:36.293Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="1-路由管理、中间件、状态管理、动态路由、动画、返回值、懒加载"><a href="#1-路由管理、中间件、状态管理、动态路由、动画、返回值、懒加载" class="headerlink" title="1.路由管理、中间件、状态管理、动态路由、动画、返回值、懒加载"></a>1.路由管理、中间件、状态管理、动态路由、动画、返回值、懒加载</h5><p><code>flutter_modular</code></p><h5 id="2-屏幕适配"><a href="#2-屏幕适配" class="headerlink" title="2.屏幕适配"></a>2.屏幕适配</h5><p><code>flutter_screenutil</code></p><h5 id="3-日志"><a href="#3-日志" class="headerlink" title="3.日志"></a>3.日志</h5><p><code>logger </code></p><h5 id="4-Toast"><a href="#4-Toast" class="headerlink" title="4.Toast"></a>4.Toast</h5><p><code>fluttertoast </code></p><h5 id="5-数据缓存"><a href="#5-数据缓存" class="headerlink" title="5.数据缓存"></a>5.数据缓存</h5><p><code>shared_preferences </code></p><h5 id="6-网络请求"><a href="#6-网络请求" class="headerlink" title="6.网络请求"></a>6.网络请求</h5><p><code>dio </code></p><h5 id="7-组件"><a href="#7-组件" class="headerlink" title="7.组件"></a>7.组件</h5><p><a href="http://laomengit.com/flutter/widgets/AnimatedOpacity.html">老孟</a></p><h5 id="8-二维码扫描"><a href="#8-二维码扫描" class="headerlink" title="8.二维码扫描"></a>8.二维码扫描</h5><p><code>qr_code_scanner </code></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h5 id=&quot;1-路由管理、中间件、状态管理、动态路由、动画、返回值、懒加载&quot;&gt;&lt;a href=&quot;#1-路由管理、中间件、状态管理、动态路由、动画、返回值、懒加载&quot; class=&quot;headerlink&quot; title=&quot;1.路由管理、中间件、状态管理、动态路由、动画、返回值、懒加</summary>
+      
+    
+    
+    
+    <category term="Flutter" scheme="http://example.com/categories/Flutter/"/>
+    
+    
+    <category term="Flutter-基础" scheme="http://example.com/tags/Flutter-%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Flutter-错误处理 List＜dynamic＞‘ is not a subtype of type ‘List＜xxx＞</title>
+    <link href="http://example.com/2021/01/21/Flutter-List%EF%BC%9Cdynamic%EF%BC%9E%E2%80%98-is-not-a-subtype-of-type-%E2%80%98List%EF%BC%9CDiskFile%EF%BC%9E/"/>
+    <id>http://example.com/2021/01/21/Flutter-List%EF%BC%9Cdynamic%EF%BC%9E%E2%80%98-is-not-a-subtype-of-type-%E2%80%98List%EF%BC%9CDiskFile%EF%BC%9E/</id>
+    <published>2021-01-21T02:16:00.000Z</published>
+    <updated>2022-08-11T03:07:36.292Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>错误：<br><code>List＜dynamic＞‘ is not a subtype of type ‘List＜xxx＞</code>  </li><li>错误代码：<br><img src="/images/pasted-14.png" alt="upload successful"><br>请求网络数据封装为model，返回List数据，方法返回类型为List&lt; AlbumModel&gt;，返回值也是List&lt; AlbumModel&gt;，接收数据为：<br><code>var albumsArray = await PictureImpl.loadAlbums(context);</code><br>流程没问题，接收的地方也没有限制，但是就是报错。  </li><li>原因：<br>Dart是一种可选的类型语言。Dart中的集合默认是异构的。换句话说，单个Dart集合可以托管各种类型的值。在<code>res.map</code>循环封装时，返回的结果类型其实是不确定的。而该函数的返回类型已经确定为List&lt; AlbumModel&gt;。因此返回结果类型不统一而报错。</li><li>解决<br><img src="/images/pasted-15.png" alt="upload successful"><br>在map循环时，指定封装的List泛型，泛型的使用强制限制集合可以包含的值的数据类型。这种集合称为类型安全集合。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;错误：&lt;br&gt;&lt;code&gt;List＜dynamic＞‘ is not a subtype of type ‘List＜xxx＞&lt;/code&gt;  &lt;/li&gt;
+&lt;li&gt;错误代码：&lt;br&gt;&lt;img src=&quot;/images/pasted-14.png&quot; alt=&quot;up</summary>
+      
+    
+    
+    
+    <category term="Flutter" scheme="http://example.com/categories/Flutter/"/>
+    
+    <category term="Flutter-异常" scheme="http://example.com/categories/Flutter/Flutter-%E5%BC%82%E5%B8%B8/"/>
+    
+    
+    <category term="Flutter" scheme="http://example.com/tags/Flutter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>k8s 入门</title>
+    <link href="http://example.com/2020/12/28/k8s-%E5%85%A5%E9%97%A8/"/>
+    <id>http://example.com/2020/12/28/k8s-%E5%85%A5%E9%97%A8/</id>
+    <published>2020-12-28T05:08:50.000Z</published>
+    <updated>2022-08-11T03:07:36.299Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装k8s的四种方式：</p><ul><li>kubeadm</li><li>二进制</li><li>minikube</li><li>yum</li></ul><blockquote><p>minikube适合个人开发使用，二进制最适合生产环境，但是入手太难，kubeadm适合新手入门。</p></blockquote><h3 id="准备工作："><a href="#准备工作：" class="headerlink" title="准备工作："></a>准备工作：</h3><ul><li>关闭防火墙<figure class="highlight gauss"><table><tr><td class="code"><pre><code class="hljs gauss"><span class="hljs-keyword">system</span> <span class="hljs-keyword">stop</span> firewalld  <br><span class="hljs-keyword">system</span> <span class="hljs-keyword">disable</span> firewalld<br></code></pre></td></tr></table></figure></li><li>关闭selinux  <figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">sed -i <span class="hljs-string">&#x27;s/enfocing/disabled/&#x27;</span> <span class="hljs-regexp">/etc/</span>selinux/config  <br>setenforce <span class="hljs-number">0</span><br></code></pre></td></tr></table></figure></li><li>关闭swap  <figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">swapoff -a  暂时关闭<br>vim <span class="hljs-regexp">/etc/</span>fstab<br></code></pre></td></tr></table></figure></li></ul><p><img src="/images/pasted-11.png" alt="upload successful"></p><ul><li><p>添加主机名与IP对应关系</p><figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">vi <span class="hljs-regexp">/etc/</span>hosts<br></code></pre></td></tr></table></figure><p><img src="/images/pasted-7.png" alt="upload successful"></p></li><li><p>桥接IPv4流量传递到iptables的链</p></li></ul><figure class="highlight stylus"><table><tr><td class="code"><pre><code class="hljs stylus">cat &gt; /etc/sysctl.d/k8s<span class="hljs-selector-class">.conf</span> &lt;&lt; EOF<br>net<span class="hljs-selector-class">.bridge</span><span class="hljs-selector-class">.bridge-nf-call-ip6tables</span> = <span class="hljs-number">1</span><br>net<span class="hljs-selector-class">.bridge</span><span class="hljs-selector-class">.bridge-nf-call-iptables</span> = <span class="hljs-number">1</span><br>EOF<br><br>sysctl <span class="hljs-attr">--system</span><br></code></pre></td></tr></table></figure><h3 id="所有节点安装Docker-kubeadm-kubelet"><a href="#所有节点安装Docker-kubeadm-kubelet" class="headerlink" title="所有节点安装Docker/kubeadm/kubelet"></a>所有节点安装Docker/kubeadm/kubelet</h3><p>kubenetes默认CRI（运行容器时）为Docker</p><h4 id="安装Docker"><a href="#安装Docker" class="headerlink" title="安装Docker"></a>安装Docker</h4><p><a href="https://anpengyu.github.io/2020/12/15/Docker-%E5%9F%BA%E7%A1%80/">https://anpengyu.github.io/2020/12/15/Docker-%E5%9F%BA%E7%A1%80/</a></p><h4 id="添加阿里云YUM软件源"><a href="#添加阿里云YUM软件源" class="headerlink" title="添加阿里云YUM软件源"></a>添加阿里云YUM软件源</h4><figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">cat &gt; <span class="hljs-regexp">/etc/yum</span>.repos.d/kubernetes.repo &lt;&lt; EOF<br>[kubernetes]<br>name=Kubernetes<br>baseurl=https:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/kubernetes/yum</span><span class="hljs-regexp">/repos/</span>kubernetes-el7-x86_64<br>enabled=<span class="hljs-number">1</span><br>gpgcheck=<span class="hljs-number">0</span><br>repo_gpgcheck=<span class="hljs-number">0</span><br>gpgkey=https:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/kubernetes/yum</span><span class="hljs-regexp">/doc/yum</span>-key.gpg https:<span class="hljs-regexp">//mi</span>rrors.aliyun.com<span class="hljs-regexp">/kubernetes/yum</span><span class="hljs-regexp">/doc/</span>rpm-package-key.gpg<br>EOF  <br></code></pre></td></tr></table></figure><h4 id="安装kubeadm-kubelet-kubectl"><a href="#安装kubeadm-kubelet-kubectl" class="headerlink" title="安装kubeadm/kubelet/kubectl"></a>安装kubeadm/kubelet/kubectl</h4><p>由于软件更新频繁，这里指定版本安装</p><figure class="highlight apache"><table><tr><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">yum</span> install -y kubelet-<span class="hljs-number">1</span>.<span class="hljs-number">15</span>.<span class="hljs-number">0</span> kubeadm-<span class="hljs-number">1</span>.<span class="hljs-number">15</span>.<span class="hljs-number">0</span> kubectl-<span class="hljs-number">1</span>.<span class="hljs-number">15</span>.<span class="hljs-number">0</span><br><span class="hljs-attribute">systemctl</span> enable kubelet<br></code></pre></td></tr></table></figure><p>在master节点执行：</p><figure class="highlight routeros"><table><tr><td class="code"><pre><code class="hljs routeros">kubeadm init \<br><span class="hljs-attribute">--apiserver-advertise-address</span>=192.168.12.168 \<br>--image-repository registry.aliyuncs.com/google_containers \<br>--kubernetes-version v1.15.0 \<br><span class="hljs-attribute">--service-cidr</span>=10.1.0.0/16 \<br><span class="hljs-attribute">--pod-network-cidr</span>=10.244.0.0/16<br></code></pre></td></tr></table></figure><p>注意：安装时cpu必须2核以上，必须关闭swap</p><h4 id="配置网络"><a href="#配置网络" class="headerlink" title="配置网络"></a>配置网络</h4><p>在kubeadm init执行完毕之后，需要配置网络信息</p><p><img src="/images/pasted-8.png" alt="upload successful"><br>第一次执行<code>kubectl get nodes</code>可能会出现master节点状态为NotReady，需要配置kube-flannel.yml信息</p><figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">kubectl apply -f https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/coreos/</span>flannel<span class="hljs-regexp">/a70459be0084506e4ec919aa1c114638878db11b/</span>Documentation/kube-flannel.yml<br></code></pre></td></tr></table></figure><p>执行这一步时，如果没有梯子，会出现连接不上问题：<br><code>The connection to the server raw.githubusercontent.com was refused - did you specify the right host or port?</code><br>解决方法，<a href="https://www.ipaddress.com/">查询IP</a>获取<code>raw.githubusercontent.com</code>的真实ip地址，在hosts中添加域名关联</p><figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">vi <span class="hljs-regexp">/etc/</span>hosts<br></code></pre></td></tr></table></figure><p><img src="/images/pasted-9.png" alt="upload successful"><br>然后再次运行</p><figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">kubectl apply -f https:<span class="hljs-regexp">//</span>raw.githubusercontent.com<span class="hljs-regexp">/coreos/</span>flannel<span class="hljs-regexp">/a70459be0084506e4ec919aa1c114638878db11b/</span>Documentation/kube-flannel.yml<br></code></pre></td></tr></table></figure><p>然后再执行<code>kubectl get nodes</code>，master节点已准备好</p><p><img src="/images/pasted-10.png" alt="upload successful"></p><p>查询pods<br><code>kubectl get pods -n kube-system</code></p><h3 id="添加node节点"><a href="#添加node节点" class="headerlink" title="添加node节点"></a>添加node节点</h3><p>复制master节点初始化时生成的token  <br>在node节点机器执行<br><img src="/images/pasted-12.png" alt="upload successful">  <br>  <br>node节点部署完成之后，在master节点查看状态  </p><p><img src="/images/pasted-13.png" alt="upload successful"></p><p>检查 aws-node 和 kube-proxy Pod 的状态<br><code>kubectl get pods -n kube-system -o wide</code>  <br>删除节点<br><code>kubectl delete pod coredns-bccdc95cf-bqtz6 coredns-bccdc95cf-p4klj -n kube-system</code></p><h3 id="部署测试"><a href="#部署测试" class="headerlink" title="部署测试"></a>部署测试</h3><ul><li>部署一个nginx程序<br><code>kubectl create deployment nginx --image=nginx</code>  </li><li>将端口暴露出去让外部访问<br><code>kubectl expose deployment nginx --port=80 --type=NodePort</code>  </li><li>查看pod和service<br><code>kubectl get pod,svc</code></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;安装k8s的四种方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;kubeadm&lt;/li&gt;
+&lt;li&gt;二进制&lt;/li&gt;
+&lt;li&gt;minikube&lt;/li&gt;
+&lt;li&gt;yum&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;minikube适合个人开发使用，二进制最适合生产环境，但是入手太</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>部署操作手册</title>
+    <link href="http://example.com/2020/12/25/%E9%83%A8%E7%BD%B2%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <id>http://example.com/2020/12/25/%E9%83%A8%E7%BD%B2%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</id>
+    <published>2020-12-25T07:24:00.000Z</published>
+    <updated>2022-08-11T03:07:36.302Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="使用k3s部署操作手册"><a href="#使用k3s部署操作手册" class="headerlink" title="使用k3s部署操作手册"></a>使用k3s部署操作手册</h4><p>安装docker  </p><p>安装k3s  </p><p>安装helm  </p><p>安装Lens(控制台)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;使用k3s部署操作手册&quot;&gt;&lt;a href=&quot;#使用k3s部署操作手册&quot; class=&quot;headerlink&quot; title=&quot;使用k3s部署操作手册&quot;&gt;&lt;/a&gt;使用k3s部署操作手册&lt;/h4&gt;&lt;p&gt;安装docker  &lt;/p&gt;
+&lt;p&gt;安装k3s  &lt;/p&gt;
+&lt;p&gt;安</summary>
+      
+    
+    
+    
+    <category term="部署" scheme="http://example.com/categories/%E9%83%A8%E7%BD%B2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lens</title>
+    <link href="http://example.com/2020/12/25/Lens/"/>
+    <id>http://example.com/2020/12/25/Lens/</id>
+    <published>2020-12-25T02:00:00.000Z</published>
+    <updated>2022-08-11T03:07:36.295Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="k8s桌面客户端管理工具"><a href="#k8s桌面客户端管理工具" class="headerlink" title="k8s桌面客户端管理工具"></a>k8s桌面客户端管理工具</h3><p>场景：从主机端管理服务器中的k8s<br><a href="https://docs.rancher.cn/docs/k3s/cluster-access/_index/#%E4%BD%BF%E7%94%A8-kubectl-%E4%BB%8E%E5%A4%96%E9%83%A8%E8%AE%BF%E9%97%AE%E9%9B%86%E7%BE%A4">从外部访问集群</a></p><h5 id="安装lens"><a href="#安装lens" class="headerlink" title="安装lens"></a>安装lens</h5><ul><li>MacOS：直接下载最新v3.5.0版本安装包 <a href="https://github.com/lensapp/lens/releases/download/v3.5.0/Lens-3.5.0.dmg">https://github.com/lensapp/lens/releases/download/v3.5.0/Lens-3.5.0.dmg</a></li><li>Windows：直接下载v3.5.0版本安装包 <a href="https://github.com/lensapp/lens/releases/download/v3.5.0/Lens-Setup-3.5.0.exe">https://github.com/lensapp/lens/releases/download/v3.5.0/Lens-Setup-3.5.0.exe</a></li><li>Linux：访问安装文档 <a href="https://snapcraft.io/docs/installing-snapd%EF%BC%8C%E6%A0%B9%E6%8D%AE%E4%B8%8D%E5%90%8C">https://snapcraft.io/docs/installing-snapd，根据不同</a> Linux 版本安装不同程序</li></ul><h5 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h5><ol><li>从服务器中复制k3s.yaml文件  <pre><code>/etc/rancher/k3s/k3s.yaml</code></pre></li><li>修改yaml中的ip为服务器ip<br><img src="/images/pasted-4.png" alt="upload successful"></li><li>将服务器中拷贝的yaml内容粘贴到本机上 <code>~/.kube/config</code>中</li></ol><h5 id="连接k8s"><a href="#连接k8s" class="headerlink" title="连接k8s"></a>连接k8s</h5><p>lens客户端中点击加号，选择自定义，将刚复制的yaml的内容粘贴进去，点击Add Cluster(s)<br><img src="/images/pasted-5.png" alt="upload successful"><br>然后就可以看到k8s相关操作  </p><p><img src="/images/pasted-6.png" alt="upload successful"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;k8s桌面客户端管理工具&quot;&gt;&lt;a href=&quot;#k8s桌面客户端管理工具&quot; class=&quot;headerlink&quot; title=&quot;k8s桌面客户端管理工具&quot;&gt;&lt;/a&gt;k8s桌面客户端管理工具&lt;/h3&gt;&lt;p&gt;场景：从主机端管理服务器中的k8s&lt;br&gt;&lt;a href=&quot;</summary>
+      
+    
+    
+    
+    <category term="部署" scheme="http://example.com/categories/%E9%83%A8%E7%BD%B2/"/>
+    
+    
+    <category term="k3s" scheme="http://example.com/tags/k3s/"/>
+    
+    <category term="k8s" scheme="http://example.com/tags/k8s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Helm操作</title>
+    <link href="http://example.com/2020/12/24/Helm%E6%93%8D%E4%BD%9C/"/>
+    <id>http://example.com/2020/12/24/Helm%E6%93%8D%E4%BD%9C/</id>
+    <published>2020-12-24T06:40:00.000Z</published>
+    <updated>2022-08-11T03:07:36.294Z</updated>
+    
+    <content type="html"><![CDATA[<p>环境：centos 8</p><h5 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h5><p>helm是基于kubernetes的包管理器</p><ul><li>chart<br>创建一个应用的信息集合，包括各种kubernetes对象配置的模板、参数定义、依赖关系、文档说明等，可以将chart想象成yum中的软件安装包</li><li>release<br>是chart的运行实例，代表一个正在运行的应用。当chart被安装到kubernetes集群，就会生成一个release，只会有一个release。</li></ul><h5 id="安装helm"><a href="#安装helm" class="headerlink" title="安装helm"></a>安装helm</h5><ol><li>下载<br><code>wget https://get.helm.sh/helm-v3.1.0-linux-amd64.tar.gz</code>  </li><li>解压<br><code>tar -zxvf helm-v3.1.0-linux-amd64.tar.gz</code>  </li><li>拷贝<br><code>cp linux-amd64/helm /usr/local/bin</code></li><li>验证<br><img src="/images/helm-page1.png" alt="upload successful"></li></ol><h5 id="添加chart源"><a href="#添加chart源" class="headerlink" title="添加chart源"></a>添加chart源</h5><figure class="highlight armasm"><table><tr><td class="code"><pre><code class="hljs armasm"><span class="hljs-number">1</span>. helm repo <span class="hljs-keyword">add</span>  stable https:<span class="hljs-comment">//kubernetes-charts.storage.googleapis.com</span><br><span class="hljs-number">2</span>. helm repo <span class="hljs-keyword">add</span>  aliyuncs https:<span class="hljs-comment">//apphub.aliyuncs.com</span><br><span class="hljs-number">3</span>. helm repo <span class="hljs-keyword">add</span> cetic https:<span class="hljs-comment">//cetic.github.io/helm-charts</span><br></code></pre></td></tr></table></figure><p>添加之后更新<br><code>helm repo update</code><br>查看chart源<br><code>helm repo list</code><br>查询某个库有哪些安装程序<br><code>helm search repo aliyuncs  | head -5</code><br>查找安装程序<br><code>helm search repo nginx</code></p><h6 id="安装程序"><a href="#安装程序" class="headerlink" title="安装程序"></a>安装程序</h6><p>搜索<br><code>helm search repo adminer</code><br>安装<br><code>helm install adminer cetic/adminer</code><br>查看service<br><code>kubectl get svc -n default</code><br>Service(简称svc)定义了Pod的逻辑集合和访问该集合的策略，是真实服务的抽象<br>删除一个应用<br><code>helm uninstall nginx</code></p><h5 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h5><ul><li>kubernetes cluster unreachable<br><code>export KUBECONFIG=/etc/rancher/k3s/k3s.yaml</code></li><li> could not connect to server: Host is unreachable Is the server running on host “192.168.12.168” and accepting TCP/IP connections on port 5432?<br>关闭服务器防火墙</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;环境：centos 8&lt;/p&gt;
+&lt;h5 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot; title=&quot;概念&quot;&gt;&lt;/a&gt;概念&lt;/h5&gt;&lt;p&gt;helm是基于kubernetes的包管理器&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;chart&lt;br&gt;创建一个应用</summary>
+      
+    
+    
+    
+    <category term="部署" scheme="http://example.com/categories/%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="k8s" scheme="http://example.com/categories/%E9%83%A8%E7%BD%B2/k8s/"/>
+    
+    
+    <category term="部署" scheme="http://example.com/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="k3s" scheme="http://example.com/tags/k3s/"/>
+    
+    <category term="k8s" scheme="http://example.com/tags/k8s/"/>
+    
+  </entry>
+  
+</feed>
